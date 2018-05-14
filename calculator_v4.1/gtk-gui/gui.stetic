@@ -31,6 +31,7 @@
             <property name="HeightRequest">25</property>
             <property name="CanFocus">True</property>
             <property name="IsEditable">True</property>
+            <property name="InvisibleChar">●</property>
           </widget>
           <packing>
             <property name="X">5</property>
@@ -110,7 +111,6 @@
             <property name="Type">TextOnly</property>
             <property name="Label" translatable="yes">BI</property>
             <property name="UseUnderline">True</property>
-            <signal name="Clicked" handler="ButtonClick_bi" />
           </widget>
           <packing>
             <property name="X">45</property>

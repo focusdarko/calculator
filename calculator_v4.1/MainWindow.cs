@@ -1,5 +1,10 @@
 ﻿using System;
 using Gtk;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Text;
 
 public partial class MainWindow : Gtk.Window
 {

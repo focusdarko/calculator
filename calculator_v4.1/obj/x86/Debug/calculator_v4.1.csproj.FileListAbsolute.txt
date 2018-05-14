@@ -4,3 +4,7 @@
 /Users/alvaro/Documents/DEV/calculator_v4.1/calculator_v4.1/obj/x86/Debug/calculator_v4.1.csproj.CoreCompileInputs.cache
 /Users/alvaro/Documents/DEV/calculator_v4.1/calculator_v4.1/obj/x86/Debug/calculator_v4.1.exe
 /Users/alvaro/Documents/DEV/calculator_v4.1/calculator_v4.1/obj/x86/Debug/calculator_v4.1.pdb
+/Users/alvaro/Documents/DEV/calculator/calculator_v4.1/obj/x86/Debug/calculator_v4.1.csprojResolveAssemblyReference.cache
+/Users/alvaro/Documents/DEV/calculator/calculator_v4.1/obj/x86/Debug/calculator_v4.1.csproj.CoreCompileInputs.cache
+/Users/alvaro/Documents/DEV/calculator/calculator_v4.1/obj/x86/Debug/calculator_v4.1.exe
+/Users/alvaro/Documents/DEV/calculator/calculator_v4.1/obj/x86/Debug/calculator_v4.1.pdb

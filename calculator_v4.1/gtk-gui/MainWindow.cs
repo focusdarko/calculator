@@ -75,6 +75,7 @@ public partial class MainWindow
 		this.entry5.CanFocus = true;
 		this.entry5.Name = "entry5";
 		this.entry5.IsEditable = true;
+		this.entry5.InvisibleChar = '●';
 		this.fixed3.Add(this.entry5);
 		global::Gtk.Fixed.FixedChild w1 = ((global::Gtk.Fixed.FixedChild)(this.fixed3[this.entry5]));
 		w1.X = 5;
@@ -342,7 +343,6 @@ public partial class MainWindow
 		this.button17.Clicked += new global::System.EventHandler(this.ButtonClick_7);
 		this.button18.Clicked += new global::System.EventHandler(this.ButtonClick_4);
 		this.button19.Clicked += new global::System.EventHandler(this.ButtonClick_1);
-		this.button20.Clicked += new global::System.EventHandler(this.ButtonClick_bi);
 		this.button22.Clicked += new global::System.EventHandler(this.ButtonClick_leftp);
 		this.button23.Clicked += new global::System.EventHandler(this.ButtonClick_rightp);
 		this.button24.Clicked += new global::System.EventHandler(this.ButtonClick_8);
