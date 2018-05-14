@@ -8,7 +8,13 @@ using System.Text;
 
 public partial class MainWindow : Gtk.Window
 {
-	string ecuacion = "";
+	//string ecuacion = "";
+
+	//creating two stacks
+
+	Stack Stack = new Stack();
+	Stack ReverseStack = new Stack();
+
 	public MainWindow() : base(Gtk.WindowType.Toplevel)
     {
         Build();
