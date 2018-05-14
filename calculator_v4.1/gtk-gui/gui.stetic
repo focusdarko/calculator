@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="../bin/Debug/calculator_v4.1.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="400 300">
+    <property name="MemberName" />
+    <property name="WidthRequest">205</property>
+    <property name="HeightRequest">235</property>
+    <property name="Title" translatable="yes">Calculator By Álvaro González</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <property name="Resizable">False</property>
+    <property name="AllowGrow">False</property>
+    <property name="DefaultWidth">185</property>
+    <property name="DefaultHeight">210</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed3">
+        <property name="MemberName" />
+        <property name="WidthRequest">205</property>
+        <property name="HeightRequest">235</property>
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.Entry" id="entry5">
+            <property name="MemberName" />
+            <property name="WidthRequest">195</property>
+            <property name="HeightRequest">25</property>
+            <property name="CanFocus">True</property>
+            <property name="IsEditable">True</property>
+          </widget>
+          <packing>
+            <property name="X">5</property>
+            <property name="Y">5</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button16">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">CE</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="ButtonClick_ce" />
+          </widget>
+          <packing>
+            <property name="X">5</property>
+            <property name="Y">35</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button17">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">7</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="ButtonClick_7" />
+          </widget>
+          <packing>
+            <property name="X">5</property>
+            <property name="Y">75</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button18">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">4</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="ButtonClick_4" />
+          </widget>
+          <packing>
+            <property name="X">5</property>
+            <property name="Y">115</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button19">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">1</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="ButtonClick_1" />
+          </widget>
+          <packing>
+            <property name="X">5</property>
+            <property name="Y">155</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button20">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">BI</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="ButtonClick_bi" />
+          </widget>
+          <packing>
+            <property name="X">45</property>
+            <property name="Y">35</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button21">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">HX</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">85</property>
+            <property name="Y">35</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button22">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">(</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="ButtonClick_leftp" />
+          </widget>
+          <packing>
+            <property name="X">125</property>
+            <property name="Y">35</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button23">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">)</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="ButtonClick_rightp" />
+          </widget>
+          <packing>
+            <property name="X">165</property>
+            <property name="Y">35</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button24">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">8</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="ButtonClick_8" />
+          </widget>
+          <packing>
+            <property name="X">45</property>
+            <property name="Y">75</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button25">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">5</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="ButtonClick_5" />
+          </widget>
+          <packing>
+            <property name="X">45</property>
+            <property name="Y">115</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button26">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">2</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="ButtonClick_2" />
+          </widget>
+          <packing>
+            <property name="X">45</property>
+            <property name="Y">155</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button27">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">9</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="ButtonClick_9" />
+          </widget>
+          <packing>
+            <property name="X">85</property>
+            <property name="Y">75</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button28">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">6</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="ButtonClick_6" />
+          </widget>
+          <packing>
+            <property name="X">85</property>
+            <property name="Y">115</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button29">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">3</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="ButtonClick_3" />
+          </widget>
+          <packing>
+            <property name="X">85</property>
+            <property name="Y">155</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button30">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">*</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="ButtonClick_mul" />
+          </widget>
+          <packing>
+            <property name="X">125</property>
+            <property name="Y">75</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button31">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">+</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="ButtonClick_plu" />
+          </widget>
+          <packing>
+            <property name="X">125</property>
+            <property name="Y">115</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button32">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">=</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">125</property>
+            <property name="Y">155</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button33">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">/</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="ButtonClick_div" />
+          </widget>
+          <packing>
+            <property name="X">165</property>
+            <property name="Y">75</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button34">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">-</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">165</property>
+            <property name="Y">115</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button35">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">ANS</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">165</property>
+            <property name="Y">155</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button36">
+            <property name="MemberName" />
+            <property name="WidthRequest">35</property>
+            <property name="HeightRequest">35</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">0</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="ButtonClick_0" />
+          </widget>
+          <packing>
+            <property name="X">45</property>
+            <property name="Y">195</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>
